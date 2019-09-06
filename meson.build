@@ -71,7 +71,7 @@ oomd_lib = static_library('oomd',
                           cpp_args : cpp_args,
                           install : false,
                           dependencies : deps)
-executable('oomd_bin',
+executable('oomd',
            files('src/oomd/Main.cpp'),
            include_directories : inc,
            cpp_args : cpp_args,
